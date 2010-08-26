@@ -1,0 +1,24 @@
+<h1>Listing emails</h1>
+
+<table>
+  <tr>
+    <th>Email</th>
+    <th>Count</th>
+    <th>State</th>
+  </tr>
+
+<% @emails.each do |email| %>
+  <tr>
+    <td><%=h email.email %></td>
+    <td><%=h email.count %></td>
+    <td><%=h email.state %></td>
+    <td><%= link_to 'Show', email %></td>
+    <td><%= link_to 'Edit', edit_email_path(email) %></td>
+    <td><%= link_to 'Destroy', email, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New email', new_email_path %>

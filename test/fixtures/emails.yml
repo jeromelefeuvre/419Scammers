@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  email: MyString
+  count: 1
+  state: MyString
+
+two:
+  email: MyString
+  count: 1
+  state: MyString

@@ -1,0 +1,444 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-26 22:41:36) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:163:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-26 22:42:11) [GET]
+
+NoMethodError (undefined method `require_role' for EmailsController:Class):
+  app/controllers/emails_controller.rb:2
+  haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:163:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (34.4ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-26 22:42:24) [GET]
+
+NoMethodError (undefined method `require_role' for EmailsController:Class):
+  app/controllers/emails_controller.rb:2
+  haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:163:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-26 22:42:47) [GET]
+
+NoMethodError (undefined method `require_role' for EmailsController:Class):
+  app/controllers/emails_controller.rb:2
+  haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:163:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (32.8ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-26 22:44:33) [GET]
+
+NoMethodError (undefined method `require_role' for EmailsController:Class):
+  app/controllers/emails_controller.rb:2
+  haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:163:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (93.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-26 22:44:34) [GET]
+
+NoMethodError (undefined method `require_role' for EmailsController:Class):
+  app/controllers/emails_controller.rb:2
+  haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:163:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (31.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-26 22:44:35) [GET]
+
+NoMethodError (undefined method `require_role' for EmailsController:Class):
+  app/controllers/emails_controller.rb:2
+  haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:163:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-26 22:44:35) [GET]
+
+NoMethodError (undefined method `require_role' for EmailsController:Class):
+  app/controllers/emails_controller.rb:2
+  haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:163:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (50.4ms)
+Rendered rescues/_request_and_response (3.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-26 22:44:35) [GET]
+
+NoMethodError (undefined method `require_role' for EmailsController:Class):
+  app/controllers/emails_controller.rb:2
+  haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:163:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (46.6ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-26 22:44:43) [GET]
+
+NoMethodError (undefined method `require_role' for EmailsController:Class):
+  app/controllers/emails_controller.rb:2
+  haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:163:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EmailsController#index (for 127.0.0.1 at 2010-08-26 22:46:35) [GET]
+  [4;36;1mEmail Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: emails: SELECT * FROM "emails" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: emails: SELECT * FROM "emails" ):
+  app/controllers/emails_controller.rb:7:in `index'
+  haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:441:in `start_request_handler'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:381:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/utils.rb:252:in `safe_fork'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:377:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:163:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/railz/application_spawner.rb:222:in `start'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:247:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:246:in `spawn_rails_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:145:in `spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/spawn_manager.rb:278:in `handle_spawn_application'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  /Users/james/.rvm/gems/ruby-1.8.7-p174/gems/passenger-2.2.15/lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (111.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (26.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100826201904)
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (7.7ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(40), "name" varchar(100) DEFAULT '', "email" varchar(100), "crypted_password" varchar(40), "salt" varchar(40), "created_at" datetime, "updated_at" datetime, "remember_token" varchar(40), "remember_token_expires_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE UNIQUE INDEX "index_users_on_login" ON "users" ("login")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100826201904')[0m
+Migrating to CreateEmails (20100826202540)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TABLE "emails" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "count" integer, "state" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100826202540')[0m
+Migrating to CreateRoles (20100826204611)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCREATE TABLE "roles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "roles_users" ("role_id" integer, "user_id" integer) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("roles_users")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCREATE INDEX "index_roles_users_on_role_id" ON "roles_users" ("role_id")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("roles_users")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_roles_users_on_role_id')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCREATE INDEX "index_roles_users_on_user_id" ON "roles_users" ("user_id")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100826204611')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("emails")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("roles")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("roles_users")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_info('index_roles_users_on_user_id')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_roles_users_on_role_id')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_info('index_users_on_login')[0m
+
+
+Processing EmailsController#index (for 127.0.0.1 at 2010-08-26 22:46:53) [GET]
+  [4;35;1mEmail Load (0.5ms)[0m   [0mSELECT * FROM "emails" [0m
+Rendering template within layouts/emails
+Rendering emails/index
+Completed in 99ms (View: 93, DB: 0) | 200 OK [http://419scammers.local/]
+
+
+Processing EmailsController#index (for 127.0.0.1 at 2010-08-26 22:47:37) [GET]
+  [4;36;1mEmail Load (0.3ms)[0m   [0;1mSELECT * FROM "emails" [0m
+Rendering template within layouts/emails
+Rendering emails/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://419scammers.local/]
+
+
+Processing EmailsController#new (for 127.0.0.1 at 2010-08-26 22:47:41) [GET]
+Rendering template within layouts/emails
+Rendering emails/new
+Completed in 84ms (View: 79, DB: 0) | 200 OK [http://419scammers.local/emails/new]
+
+
+Processing EmailsController#new (for 127.0.0.1 at 2010-08-26 22:48:47) [GET]
+Rendering template within layouts/emails
+Rendering emails/new
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://419scammers.local/emails/new]
+
+
+Processing EmailsController#create (for 127.0.0.1 at 2010-08-26 22:49:52) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"u84Nd9pWzxCOW85CojMUYJf8wZzObKA/W/ABQBprjok=", "email"=>{"email"=>"toto"}}
+Rendering template within layouts/emails
+Rendering emails/new
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://419scammers.local/emails]

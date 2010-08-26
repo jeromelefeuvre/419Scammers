@@ -1,0 +1,18 @@
+<p>
+  <b>Email:</b>
+  <%=h @email.email %>
+</p>
+
+<p>
+  <b>Count:</b>
+  <%=h @email.count %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%=h @email.state %>
+</p>
+
+
+<%= link_to 'Edit', edit_email_path(@email) %> |
+<%= link_to 'Back', emails_path %>
