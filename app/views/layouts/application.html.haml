@@ -1,0 +1,122 @@
+!!! Strict
+/
+/ Design by Free CSS Templates
+/ http://www.freecsstemplates.org
+/ Released for free under a Creative Commons Attribution 2.5 License
+/ 
+/ Name       : Regeneracy
+/ Description: A two-column, fixed-width design with dark color scheme.
+/ Version    : 1.0
+/ Released   : 20100529
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+%head
+%meta{:content => "", :name => "keywords"}/
+%meta{:content => "", :name => "description"}/
+%meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}/
+%title Regeneracy    by Free CSS Templates
+
+/ = stylesheet_link_tag 'application'
+= stylesheet_link_tag 'template', :media => "screen", :rel => "stylesheet", :type => "text/css"
+= javascript_include_tag "jquery-1.4.2.min", "application"
+
+%body
+  #wrapper
+    #header-wrapper
+      #header
+        #logo
+          %h1
+            %a{:href => "#"} 419 - Scammers database
+          %p
+            design by
+            %a{:href => "http://www.freecsstemplates.org/"} Free CSS Templates
+        #menu
+          %ul
+            %li.current_page_item
+              = link_to "Home", root_path
+            %li
+              %a{:href => "#"} About
+            %li
+              %a{:href => "#"} Links
+            %li
+              %a{:href => "#"} Contact
+            - unless logged_in?
+              %li
+                = link_to "Restricted area", login_path
+            - else
+              %li
+                = link_to "Logout", logout_path
+    / end #header
+    #page
+      #page-bgtop
+        #page-bgbtm
+          #content
+            = yield
+
+          / end #content
+          #sidebar
+            %ul
+              %li
+                #search
+                  - form_tag emails_path do
+                    %div
+                      / %h2 Search a scam email address
+                      = text_field_tag :scammer_email, 'Enter the scammer email address', :size => 20, :class => "rmv-dft-val", :id => "search-text"
+                      %input#search-submit{:type => "submit", :value => "GO"}/                  
+                %div{:style => "clear: both;"} &nbsp;
+              %li
+                %h2 Aliquam tempus
+                %p Mauris vitae nisl nec metus placerat perdiet est. Phasellus dapibus semper consectetuer hendrerit.
+              %li
+                %h2 Categories
+                %ul
+                  %li
+                    %a{:href => "#"} Aliquam libero
+                  %li
+                    %a{:href => "#"} Consectetuer adipiscing elit
+                  %li
+                    %a{:href => "#"} Metus aliquam pellentesque
+                  %li
+                    %a{:href => "#"} Suspendisse iaculis mauris
+                  %li
+                    %a{:href => "#"} Urnanet non molestie semper
+                  %li
+                    %a{:href => "#"} Proin gravida orci porttitor
+              %li
+                %h2 Blogroll
+                %ul
+                  %li
+                    %a{:href => "#"} Aliquam libero
+                  %li
+                    %a{:href => "#"} Consectetuer adipiscing elit
+                  %li
+                    %a{:href => "#"} Metus aliquam pellentesque
+                  %li
+                    %a{:href => "#"} Suspendisse iaculis mauris
+                  %li
+                    %a{:href => "#"} Urnanet non molestie semper
+                  %li
+                    %a{:href => "#"} Proin gravida orci porttitor
+              %li
+                %h2 Archives
+                %ul
+                  %li
+                    %a{:href => "#"} Aliquam libero
+                  %li
+                    %a{:href => "#"} Consectetuer adipiscing elit
+                  %li
+                    %a{:href => "#"} Metus aliquam pellentesque
+                  %li
+                    %a{:href => "#"} Suspendisse iaculis mauris
+                  %li
+                    %a{:href => "#"} Urnanet non molestie semper
+                  %li
+                    %a{:href => "#"} Proin gravida orci porttitor
+          / end #sidebar
+          %div{:style => "clear: both;"} &nbsp;
+    / end #page
+  #footer
+    %p
+      Copyright (c) 2008 Sitename.com. All rights reserved. Design by
+      = succeed "." do
+        %a{:href => "http://www.freecsstemplates.org/"} Free CSS Templates
+  / end #footer

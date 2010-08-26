@@ -1,5 +1,4 @@
 class SessionsController < ApplicationController
-  require_roel :admin
   
   # render new.erb.html
   def new

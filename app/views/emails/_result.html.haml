@@ -1,0 +1,8 @@
+%h1 Search result
+%p
+  - if @emails.blank?
+    = "The email '#{params[:scammer_email]}' has not been found in our database,"
+    = link_to_function "want to add it ?", :action => "index"
+  - else
+    = "The email '#{params[:scammer_email]}' has been found in our database,"
+    = link_to "confirm it's a scammer ?", :action => "index"

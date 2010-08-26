@@ -1,0 +1,12 @@
+%p
+  %b Email:
+  = h @email.email
+%p
+  %b Count:
+  = h @email.count
+%p
+  %b State:
+  = h @email.state
+= link_to 'Edit', edit_email_path(@email)
+|
+\#{link_to 'Back', emails_path}

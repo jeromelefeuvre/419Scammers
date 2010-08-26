@@ -1,0 +1,104 @@
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+#map_canvas {
+  height: 100%; }
+
+body {
+  background-color: white;
+  color: #333333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+pre {
+  background-color: #eeeeee;
+  padding: 10px;
+  font-size: 11px; }
+
+a {
+  color: black; }
+  a:visited {
+    color: #666666; }
+  a:hover {
+    color: white;
+    background-color: black; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; }
+  #errorExplanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    background-color: #cc0000;
+    color: white; }
+  #errorExplanation p {
+    color: #333333;
+    margin-bottom: 0;
+    padding: 5px; }
+  #errorExplanation ul li {
+    font-size: 12px;
+    list-style: square; }
+
+table.styled {
+  width: 100%;
+  border-collapse: collapse; }
+  table.styled td {
+    text-align: left; }
+  table.styled th {
+    text-align: left;
+    background-color: #fce7b4;
+    border-color: #f4ae09;
+    border-width: 1px;
+    border-bottom-style: solid;
+    padding: 5px 10px; }
+  table.styled td {
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 5px; }
+  table.styled tr:hover {
+    background-color: #fce7b4; }
+
+.upbar {
+  font-size: 13px;
+  font-weight: bold;
+  height: 20px;
+  text-indent: 5px;
+  top: 0;
+  width: 100%;
+  float: left; }
+  .upbar .right_menu {
+    padding: 0 10px 0 0;
+    float: right; }
+    .upbar .right_menu a {
+      font-size: 13px;
+      font-weight: bold; }
+
+#login_form {
+  display: block;
+  margin: 58px auto auto;
+  width: 350px; }
+
+#main {
+  padding: 28px 19px 0; }

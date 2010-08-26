@@ -22,6 +22,7 @@ Rails::Initializer.run do |config|
   config.gem "haml"
   config.gem "alexdunae-validates_email_format_of", :lib => "validates_email_format_of"
   config.gem "searchlogic"
+  config.gem 'resource_controller'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
@@ -44,3 +45,5 @@ Rails::Initializer.run do |config|
 end
 
 ActionView::Base.field_error_proc = Proc.new { |html_tag, instance| "<span class=\"fieldWithErrors\">#{html_tag}</span>" }
+
+Sass::Plugin.options[:template_location] = { 'app/stylesheets' => 'public/stylesheets' }

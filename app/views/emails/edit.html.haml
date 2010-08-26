@@ -1,0 +1,20 @@
+%h1 Editing email
+- form_for(@email) do |f|
+  = f.error_messages
+  %p
+    = f.label :email
+    %br/
+    = f.text_field :email
+  %p
+    = f.label :count
+    %br/
+    = f.text_field :count
+  %p
+    = f.label :state
+    %br/
+    = f.text_field :state
+  %p
+    = f.submit 'Update'
+= link_to 'Show', @email
+|
+\#{link_to 'Back', emails_path}
