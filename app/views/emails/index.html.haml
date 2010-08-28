@@ -1,7 +1,7 @@
 - if logged_in?
   = render :partial => 'index'
 - else
-  - if @emails
+  - if @emails && !flash[:warning]
     = render :partial => "result"
   - else
     %p

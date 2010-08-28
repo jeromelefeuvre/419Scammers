@@ -1,0 +1,9 @@
+fr:
+  activerecord:
+    attributes:
+      email:
+        email      : Email
+        count      : Nombre de validations
+        state      : Etat
+        created_at : Créé le
+        updated_at : Mis à jour le

@@ -15,7 +15,7 @@
 %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}/
 %title Regeneracy    by Free CSS Templates
 
-/ = stylesheet_link_tag 'application'
+= stylesheet_link_tag 'application'
 = stylesheet_link_tag 'template', :media => "screen", :rel => "stylesheet", :type => "text/css"
 = javascript_include_tag "jquery-1.4.2.min", "application"
 
@@ -25,31 +25,32 @@
       #header
         #logo
           %h1
-            %a{:href => "#"} 419 - Scammers database
+            %a{:href => "#"}= t(:title)
           %p
             design by
             %a{:href => "http://www.freecsstemplates.org/"} Free CSS Templates
         #menu
           %ul
             %li.current_page_item
-              = link_to "Home", root_path
+              = link_to t('top_menu.home'), root_path
             %li
-              %a{:href => "#"} About
+              %a{:href => "#"}= t('top_menu.about')
             %li
-              %a{:href => "#"} Links
+              %a{:href => "#"}= t('top_menu.links')
             %li
-              %a{:href => "#"} Contact
+              %a{:href => "#"}= t('top_menu.contact')
             - unless logged_in?
               %li
-                = link_to "Restricted area", login_path
+                = link_to t('top_menu.restricted_area'), login_path
             - else
               %li
-                = link_to "Logout", logout_path
+                = link_to t('top_menu.logout'), logout_path
     / end #header
     #page
       #page-bgtop
         #page-bgbtm
           #content
+            #flash= render 'layouts/application/flash', :flash => flash
             = yield
 
           / end #content
@@ -57,11 +58,10 @@
             %ul
               %li
                 #search
-                  - form_tag emails_path do
+                  - form_tag emails_path, :method => :get do
                     %div
-                      / %h2 Search a scam email address
-                      = text_field_tag :scammer_email, 'Enter the scammer email address', :size => 20, :class => "rmv-dft-val", :id => "search-text"
-                      %input#search-submit{:type => "submit", :value => "GO"}/                  
+                      = text_field_tag "search[email]", 'Enter the scammer email address', :size => 20, :class => "rmv-dft-val", :id => "search-text"
+                      = submit_tag 'GO'
                 %div{:style => "clear: both;"} &nbsp;
               %li
                 %h2 Aliquam tempus
@@ -70,47 +70,9 @@
                 %h2 Categories
                 %ul
                   %li
-                    %a{:href => "#"} Aliquam libero
+                    = link_to "French", :locale => :fr
                   %li
-                    %a{:href => "#"} Consectetuer adipiscing elit
-                  %li
-                    %a{:href => "#"} Metus aliquam pellentesque
-                  %li
-                    %a{:href => "#"} Suspendisse iaculis mauris
-                  %li
-                    %a{:href => "#"} Urnanet non molestie semper
-                  %li
-                    %a{:href => "#"} Proin gravida orci porttitor
-              %li
-                %h2 Blogroll
-                %ul
-                  %li
-                    %a{:href => "#"} Aliquam libero
-                  %li
-                    %a{:href => "#"} Consectetuer adipiscing elit
-                  %li
-                    %a{:href => "#"} Metus aliquam pellentesque
-                  %li
-                    %a{:href => "#"} Suspendisse iaculis mauris
-                  %li
-                    %a{:href => "#"} Urnanet non molestie semper
-                  %li
-                    %a{:href => "#"} Proin gravida orci porttitor
-              %li
-                %h2 Archives
-                %ul
-                  %li
-                    %a{:href => "#"} Aliquam libero
-                  %li
-                    %a{:href => "#"} Consectetuer adipiscing elit
-                  %li
-                    %a{:href => "#"} Metus aliquam pellentesque
-                  %li
-                    %a{:href => "#"} Suspendisse iaculis mauris
-                  %li
-                    %a{:href => "#"} Urnanet non molestie semper
-                  %li
-                    %a{:href => "#"} Proin gravida orci porttitor
+                    = link_to "English", :locale => :en
           / end #sidebar
           %div{:style => "clear: both;"} &nbsp;
     / end #page

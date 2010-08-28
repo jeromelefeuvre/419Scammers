@@ -47,3 +47,5 @@ end
 ActionView::Base.field_error_proc = Proc.new { |html_tag, instance| "<span class=\"fieldWithErrors\">#{html_tag}</span>" }
 
 Sass::Plugin.options[:template_location] = { 'app/stylesheets' => 'public/stylesheets' }
+
+I18n.default_locale = :en

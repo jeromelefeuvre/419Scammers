@@ -1,0 +1,11 @@
+- if flash[:message]
+  %div= flash[:message]
+  
+- if flash[:success]
+  .success= flash[:success]
+  
+- if flash[:warning]
+  .warning= flash[:warning]
+  
+- if flash[:failure]
+  .failure= flash[:failure]

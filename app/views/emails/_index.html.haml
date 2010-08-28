@@ -1,16 +1,19 @@
-%h1 Listing emails
-%table
+%h1= t('restricted_area.email.title')
+%table.styled
   %tr
-    %th Email
-    %th Count
-    %th State
+    %th= Email.human_attribute_name :email
+    %th= Email.human_attribute_name :count
+    %th= Email.human_attribute_name :created_at
+    %th= Email.human_attribute_name :state
+
   - @emails.each do |email|
     %tr
       %td= h email.email
       %td= h email.count
+      %td= h l(email.created_at)
       %td= h email.state
-      %td= link_to 'Show', email
-      %td= link_to 'Edit', edit_email_path(email)
-      %td= link_to 'Destroy', email, :confirm => 'Are you sure?', :method => :delete
+      %td= link_to t('restricted_area.actions.show'), email
+      %td= link_to t('restricted_area.actions.edit'), edit_email_path(email)
+      %td= link_to t('restricted_area.actions.destroy'), email, :confirm => 'Are you sure?', :method => :delete
 %br/
-= link_to 'New email', new_email_path
+= link_to t('restricted_area.actions.new'), new_email_path

@@ -1,0 +1,19 @@
+fr:
+  title: "419 - Base de donnée d'arnaqueurs"
+  top_menu:
+    home            : Accueil
+    about           : A propos
+    links           : Liens
+    contact         : Contact
+    restricted_area : Zone privé
+    logout          : Se déconnecter
+  
+  restricted_area:
+    actions:
+      show    : Afficher
+      edit    : Editer
+      destroy : Supprimer
+      new     : Nouvel email
+
+    email:
+      title: Liste des emails

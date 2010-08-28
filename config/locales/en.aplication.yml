@@ -1,0 +1,22 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  title: "419 - Scammers database"
+  top_menu:
+    home            : Home
+    about           : About
+    links           : Links
+    contact         : Contact
+    restricted_area : Restricted area
+    logout          : Logout
+  
+  restricted_area:
+    actions:
+      show    : Show
+      edit    : Edit
+      destroy : Destroy
+      new     : New email
+  
+    email:
+      title: Listing emails

@@ -1,0 +1,9 @@
+en:
+  activerecord:
+    email:
+      attributes:
+        email      : Eamil
+        count      : Eamil
+        state      : Eamil
+        created_at : Eamil
+        updated_at : Eamil
